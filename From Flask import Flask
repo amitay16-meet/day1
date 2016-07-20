@@ -1,0 +1,10 @@
+from flask import Flask
+app = Flask (_name_)
+
+
+@approute('/')
+def index ():
+  return '<h1> Hello World </h1>'
+
+ if_name_=='_main_':
+   app.run(debug-=true)

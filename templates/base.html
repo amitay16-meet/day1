@@ -1,0 +1,36 @@
+#user.tml
+{%block content %} 
+ <h1> hello, {{name}}!</h1>
+{% endblock %}
+
+#index.html
+{% extends "base.html" %}
+
+{% block content %} 
+  <h1>Hello</h1>
+{% endblock %}
+ 
+
+
+#404.html 
+
+{% extends "base.html" %}
+
+{% block content %} 
+  <h1>sorry , this page was not found.</h1>
+{% endblock %}
+ 
+
+
+{% block title %}Flasky{% endblock %}
+
+{%block navbar%}
+ <ul>
+    <li><a href='/'>home</a></li>
+ </ul>
+{% endblock %} 
+
+{% block content %} 
+  <h1>Hello, {{name}}!</h1>
+{% endblock %}
+ 
